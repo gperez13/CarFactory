@@ -3,9 +3,9 @@ public class Main {
     public static void main(String [] args){
         Car audi = new Car();
         Car porsche = new Car();
-        audi.model = "TT";
+        audi.setModel("TT");
 
-        System.out.println(audi.model);
+        System.out.println("Model is " + audi.getModel());
 
 
     }
